@@ -1,0 +1,145 @@
+*{
+    font-weight: 700;
+}
+.header {
+    background-image: url("../images/banner/banner3.png");
+    text-align: right;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container {
+    padding: 150px;
+}
+.container-heading {
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+}
+.container-paragraph {
+    color: white;
+    font-size: 20px;
+    font-weight: 50;
+}
+.btn-primary {
+    color: dodgerblue;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+}
+.failures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.image {
+    padding-top: 100px;
+
+}
+.failures-heading {
+    font-size: 50px;
+
+}
+
+    main.list{
+        text-align: justify;
+    }
+.list ul{
+    list-style: none;
+   
+}
+li:before {
+    content: '✓';
+    color: green;
+    
+}
+.my-plans {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.plan-para{
+    color:gray;
+}
+.lower-image{
+  background-image: url("../images/watch.png"),linear-gradient(to right,dodgerblue , transparent);
+  background-repeat: no-repeat;
+background-position: center;
+height:300px ;
+
+}
+.image-description{
+  color: white;
+  
+  padding-left: 420px;
+}
+.image-heading{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.btn-secoundary{
+    color: dodgerblue;
+    padding: 15px 30px;
+font-size:15px ;
+font-weight: 700;
+border-radius: 5px;
+border: 0;
+}
+footer{
+    padding-top: 100px;
+}
+.future{
+    display: flex;
+    justify-content: space-around;
+   
+    background-color: black;
+    height: 500px;
+    color: white;
+}
+.future-heading{
+    font-size: 50px;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.subscribe{
+  
+  padding-top: 80px;
+}
+.subscribe-heading{
+    font-size: 30px;
+}
+from{
+text-align: left;
+}
+.subscribe input{
+height: 40px;
+border: 2px solid white;
+background-color: black;
+border-radius: 5px;
+width: 100%;
+}
+.btn-last{
+    padding-top: 10px;
+}
+.btn-footer{
+    background-color:dodgerblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+font-size: 15px;
+font-weight: 700;
+color: white;
+}
