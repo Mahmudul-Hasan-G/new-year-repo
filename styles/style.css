@@ -50,8 +50,8 @@
     list-style: none;
    
 }
-li:before {
-    content: '✓';
+li::before {
+    content:'✓';
     color: green;
     
 }
